@@ -1,0 +1,11 @@
+Detector (same for all sims): Four modules of 2 by 2 crystals, each crystal is 20 x 10 x 20 mm, 2.5 mm between crystals and 10 mm between modules (along z-axis) - detectors centered on target - center of detector is 100 mm from isocenter - see attached picture
+
+Analysis Settings (same for all sims): Both double and triple scatters, Doppler Broadening is on, Real scatters (i.e. not all perfect)
+
+p2_cube - Source: 50 mm cube centered at zero, 4.44 MeV gamma isotropic source with 0.1 MeV energy sigma
+p2_line_4.44MeV - 50 cm line source along z-axis with 2.5 mm position sigma, 4.44 MeV gamma isotropic source with 0.1 MeV energy sigma
+p2_line_co60 - 50 cm line source along z-axis with 2.5 mm position sigma, 1.17 & 1.33 MeV isotropic gammas with 0.05 MeV energy sigma
+p2_point - point source at 0,0,0 with 5 mm position sigma in x, y, and z, 4.44 MeV gamma isotropic source with 0.1 MeV energy sigma
+
+[still running, but will be uploaded to dropbox by the end of the day]
+p2_proton - 180 MeV (0.4 MeV energy sigma) proton beam hitting water target (320 mm long), along z-axes with x and y = 0 with 2.5 mm position sigma in x and y.

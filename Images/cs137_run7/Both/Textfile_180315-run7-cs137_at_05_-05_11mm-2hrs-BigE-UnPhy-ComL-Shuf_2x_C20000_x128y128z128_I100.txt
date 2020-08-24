@@ -1,0 +1,9 @@
+Actual Location of source:     005.00 mm   ,   -05.00 mm   ,   011.00 mm 
+Estimated Location of source:  005.86 mm   ,   -05.86 mm   ,   015.23 mm 
+                                    _______________________________
+Difference:                    000.86 mm   ,   -00.86 mm   ,   004.23 mm 
+Magnitude:                     004.41 mm 
+
+ 
+ 
+Resolution (voxel-size): 0.78 x 0.78 x 0.78 mm

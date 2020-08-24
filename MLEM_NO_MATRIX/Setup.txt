@@ -1,0 +1,32 @@
+  File Naming
+1)    Name of the input file              = 180315-run7-cs137_at_05_-05_11mm-2hrs-BigE-UnPhy-ComL_2x_d1
+2)    Added Modifier to the output name   =
+3)    Load previous iteration             =
+
+  Defining the Source Space
+-    X-limits = -50.0 , 50.0
+-    Y-limits = -50.0 , 50.0
+-    Z-limits = -50.0 , 50.0
+
+-    The number of voxels per dimension x,y,z  = 100 , 100 , 100
+-    The number of threads per iteration block = 250
+-    The number of iteration blocks            = 4000
+  THE NUMBER OF VOXELS MUST EQUAL THE NUMBER OF ITERATION THREADS
+
+  Defining the Event Data
+-    The total number of imported cones       = 20000
+-    The number of threads per cone block     = 200
+-    The number of cone blocks                = 100
+  THE NUMBER OF CONES MUST EQUAL THE NUMBER OF CONE THREADS
+
+  Run Length and Saves
+-    The total number of iterations     = 150
+-    The number of iterations per save  = 150
+
+  Other Parameters
+-    The Noise Reducing Cutoff as a fraction of the maximum value  = 0.001
+-    The assumed uncertainty in the energy measurements in MeV     = 0.02
+
+  Method of Saving Data (Can have more than one selected)
+-    DAT files in the same format as those produced by CORE = 1
+-    CSV files to be used in Matthew's plotting codes       = 1

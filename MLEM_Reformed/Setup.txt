@@ -1,0 +1,33 @@
+  File Naming
+1)    Name of the input file              = Combined_Only_Cesium137_alternative
+2)    Added Modifier to the output name   = 
+
+
+  Defining the Source Space
+-    X-limits = -50.0 , 50.0
+-    Y-limits = -50.0 , 50.0
+-    Z-limits = -50.0 , 50.0
+
+-    The number of voxels per dimension x,y,z = 20 , 20 , 20
+-    The number of theads per iteration block = 400
+-    The number of iteration blocks           = 20
+  THE NUMBER OF VOXELS MUST EQUAL THE NUMBER OF ITERATION THREADS
+
+  Defining the Event Data
+-    The total number of imported cones       = 28160
+-    The number of theads per cone block      = 256
+-    The number of cone blocks                = 110
+  THE NUMBER OF CONES MUST EQUAL THE NUMBER OF CONE THREADS
+
+  Run Length and Saves
+-    The total number of iterations     = 500
+-    The number of iterations per save  = 500
+
+  Other Parameters
+-    The number of steps for numerical integration, must be even    = 10
+-    The Noise Reducing Cuttoff as a fraction of the maximum value  = 0.001
+-    The assumed uncertainty in the energy measurements in MeV      = 0.1
+
+  Method of Saving Data (Can have more than one selected)
+-    DAT files in the same format as those produced by CORE = 0
+-    CSV files to be used in Matthew's plotting codes       = 1
